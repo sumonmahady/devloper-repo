@@ -44,3 +44,16 @@ nav a {
     font-weight: 800;
 
 }
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profil-pic{
+    width: 584px;
+    
+
+}
