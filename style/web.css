@@ -44,16 +44,42 @@ nav a {
     font-weight: 800;
 
 }
-.header{
+
+.header {
     background: #FFF8F3;
-}
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
-}
-.banner .profil-pic{
-    width: 584px;
-    
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-contain{
+    max-width: 500px;
+}
+
+.banner .profil-pic {
+    width: 584px;
+
+
+}
+
+.banner-gretting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+
+}
+
